@@ -1,0 +1,5 @@
+Model,Target_eps,Eps_spent,Noise_sigma,Test_acc_pct,Acc_change_pct
+Baseline (no DP),-,-,-,97.5,0.0
+DP-SGD eps=10,10.0,9.99,0.521,95.4,-2.1
+DP-SGD eps=5,5.0,5.0,0.662,95.0,-2.5
+DP-SGD eps=1,1.0,0.99,1.235,93.1,-4.4
